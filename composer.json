@@ -1,0 +1,24 @@
+{
+    "name": "neo-p/log",
+    "description": "log",
+    "minimum-stability": "dev",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "6xiaowu9",
+            "email": "736518585@qq.com"
+        }
+    ],
+    "require": {
+        "neo-p/process": "^0.0.1",
+        "neo-p/framework": "^0.0.1"
+    },
+    "autoload": {
+        "files": [
+            "src/Helper/Function.php"
+        ],
+        "psr-4": {
+            "NeoP\\Log": "src/"
+        }
+    }
+}
