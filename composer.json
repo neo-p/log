@@ -1,8 +1,8 @@
 {
     "name": "neo-p/log",
     "description": "log",
-    "minimum-stability": "dev",
-    "version": "0.0.1",
+    "type": "library",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "6xiaowu9",
@@ -10,6 +10,7 @@
         }
     ],
     "require": {
+        "php": ">=7.0",
         "neo-p/process": "^0.0.1",
         "neo-p/framework": "^0.0.1"
     },
@@ -18,7 +19,7 @@
             "src/Helper/Function.php"
         ],
         "psr-4": {
-            "NeoP\\Log": "src/"
+            "NeoP\\Log\\": "src/"
         }
     }
 }
