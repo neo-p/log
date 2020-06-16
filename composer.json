@@ -3,16 +3,11 @@
     "description": "log",
     "type": "library",
     "license": "Apache-2.0",
-    "authors": [
-        {
-            "name": "6xiaowu9",
-            "email": "736518585@qq.com"
-        }
-    ],
     "require": {
         "php": ">=7.0",
-        "neo-p/process": "^0.0.1",
-        "neo-p/framework": "^0.0.1"
+        "neo-p/framework": "^1.0.0",
+        "neo-p/process": "^1.0.0",
+        "neo-p/id": "^1.0.0"
     },
     "autoload": {
         "files": [
